@@ -1,0 +1,168 @@
+// =======================================
+// 
+// 順番コンシェル　ランディングページ
+// 
+// =======================================
+
+
+// =======================================
+// Preset
+// =======================================
+
+.col-panel {	
+	position: relative;	
+	margin: 8px -8px;	
+	margin-bottom: 15px;
+	padding: 20px 0px;
+	overflow: hidden;
+	min-height: 250px;
+
+	background: @white-smooth;
+	box-shadow: @shadow-section;
+	border-radius: @border-radius-section;
+
+	.row {
+		margin: 0;
+		[class^="col-"] {
+			padding: 45px 60px;
+		}
+	}
+}
+.row[class*="section"]{
+	margin-bottom: 20px;
+	border-bottom: 1px solid blue;
+}
+
+
+// =======================================
+// Style
+// =======================================
+.section1 {
+	position: relative;
+	
+	.panel-1-1 {
+		padding-top: 115px;
+		background-image: url('../img/bg/clock.png');
+		background-repeat: no-repeat;		
+		background-position: -50px -50px;
+	}
+
+	.panel-1-2 {
+		padding-bottom: 75px;
+		background-image: url('../img/bg/atom.png');
+		background-repeat: no-repeat;		
+		background-position: right top;
+	}
+	// image
+
+	.image-jun-logo {
+		position: absolute;
+
+		left: 50%;
+		margin-left: -100px;
+		top: -65px;
+		
+		// object shadow
+		&::after {
+			position: absolute;
+			left: 76%; top: 16px;
+			z-index: -1;
+			content: " ";
+			display: block;			
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 200px 0 0 200px;
+			border-color: transparent transparent transparent rgba(0, 0, 0, 0.06);
+		}
+	}
+	.image-ph-video {
+		display: inline-block;	
+		position: relative;
+		box-shadow: 0 0 30px 5px rgba(0,0,0,0.3);
+		
+		// object shadow
+		&::before {
+			position: absolute;
+			left: 100%; top: 0px;
+			content: " ";
+			display: block;			
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 350px 0 0 350px;
+			border-color: transparent transparent transparent #eee;
+		}
+		&::after {
+			position: absolute;
+			left: 0; top: 100%;
+			content: " ";
+			display: block;			
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 0 448px 448px 0;
+			border-color: transparent #eee transparent transparent;
+		}
+	}
+	.image-ob-muti-device {
+		position: absolute;
+		right: 50px; bottom: -35px;
+
+		// object shadow
+		&::before {
+			position: absolute;
+			left: 100%; top: 50%;			
+			content: " ";
+			display: block;			
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 350px 0 0 350px;
+			border-color: transparent transparent transparent rgba(0, 0, 0, 0.06);
+		}
+		&::after {
+			position: absolute;
+			left: 0; top: 90%;
+			content: " ";
+			display: block;			
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 0 359px 359px 0;
+			border-color: transparent rgba(0, 0, 0, 0.06) transparent transparent;
+		}
+	}
+}
+
+
+// =========================================
+.section2 {
+	.panel-2-3 {
+		.image-photo-device {
+			// object shadow
+			&::before {
+				position: absolute;
+				left: 100%; top: 0;			
+				content: " ";
+				display: block;			
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 350px 0 0 350px;
+				border-color: transparent transparent transparent #eee;
+			}
+			&::after {
+				position: absolute;
+				left: 0; top: 100%;
+				content: " ";
+				display: block;			
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 0 375px 375px 0;
+				border-color: transparent #eee transparent transparent;
+			}
+		}
+	}
+}

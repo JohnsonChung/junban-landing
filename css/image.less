@@ -1,0 +1,130 @@
+// =======================================
+// 
+// 順番コンシェル　ランディングページ
+// 
+// =======================================
+
+
+// =======================================
+// Preset
+// =======================================
+
+
+
+// =======================================
+// Style
+// =======================================
+
+@img-z-1: 10;
+@img-z-2: 20;
+@img-z-3: 30;
+@img-z-4: 40;
+@img-z-5: 50;
+
+.image {
+	position: relative;
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	outline: dashed 1px #E89151;
+
+	&.image-center {
+		margin: 0 auto;
+	}
+	&.image-patchwork {
+		@radius: 10px;
+		@margin: 5px;
+		border-radius: @radius;
+
+		&::before {
+			position: absolute;
+			left: @margin; top: @margin;
+			bottom: @margin; right: @margin;
+			content: "";
+			border: 2px dashed white;
+			border-radius: @radius;
+		}
+	}
+	
+	&-jun-wlogo {		
+		z-index: @img-z-5;		
+		background-image: url('../img/logo-word.png');
+		background-size: 100% auto;
+		height: 68px;
+		width: 320px;		
+		margin-bottom: -68px;
+	}
+	&-jun-logo {	
+		@h: 256px * 0.75;
+		@w:  268px * 0.75;
+		background-image: url('../img/logo.png');
+		background-size: @h @w;
+		height: @h;
+		width: @w;
+	}
+	&-hero-list {
+		background-image: url('../img/Comic_申請書_B_長い待ってる人の列がなくなる.jpg');
+		background-size: 100% auto;		
+		height: 100%;
+		max-height: 768px;
+		width: 100%;
+		min-width: 480px;
+	}
+	
+	// section object 
+	&-ob-muti-device {
+		@h: 133px;
+		@w: 359px;
+		background-image: url('../img/bg/muti-device.png');
+		background-size: @w @h;
+		width: @w;
+		height: @h;
+	}
+	// placeholder 
+	&-ph-video {
+		@ratio: 0.7;
+		@h: 360px * @ratio;
+		@w: 640px * @ratio; 
+		background-image: url('../img/placeholder-video.png');	
+		background-size: @w @h ;
+		height: @h;
+		width: @w;
+		max-width: 100%;
+	}
+	// photo
+	&-photo-counter {
+		@ratio: 1.5;
+		@h: 168px * @ratio;
+		@w: 250px * @ratio; 
+		background-image: url('../img/photo/thumb_counter.png');	
+		background-size: @w @h ;
+		height: @h;
+		width: @w;
+		max-width: 100%;
+		.image-center;
+		.image-patchwork;
+	}
+	&-photo-kiosk {
+		@ratio: 1.5;
+		@h: 168px * @ratio;
+		@w: 250px * @ratio; 
+		background-image: url('../img/photo/thumb_kiosk.png');	
+		background-size: @w @h ;
+		height: @h;
+		width: @w;
+		max-width: 100%;
+		.image-center;
+		.image-patchwork;
+	}
+	&-photo-device {
+		@ratio: 1.5;
+		@h: 168px * @ratio;
+		@w: 250px * @ratio; 
+		background-image: url('../img/photo/thumb_device.png');	
+		background-size: @w @h ;
+		height: @h;
+		width: @w;
+		max-width: 100%;
+		.image-center;
+	}
+}

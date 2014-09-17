@@ -1,0 +1,47 @@
+// =======================================
+// 
+// 順番コンシェル　ランディングページ
+// 
+// =======================================
+
+
+// =======================================
+// Preset
+// =======================================
+
+
+
+// =======================================
+// Lab
+// =======================================
+
+// before after 三角形mixin @建置中
+.triangle(@sw; @witdh: 0 20px 20px 0) {
+
+	.trimix {
+		position: absolute;
+		content: " ";
+		display: block;			
+		width: 0;
+		height: 0;				
+		border-style: solid;
+		border-width: @witdh;
+		border-color: transparent red transparent transparent;
+	}
+
+	& when (@sw = before) {
+		&&:before {
+			.trimix;
+		}
+	}
+	& when (@sw = after) {				
+		&&:after {
+			.trimix;
+		}	
+	}
+	& when (@sw = both) {				
+		&&:before, &:after {
+			.trimix;
+		}
+	}
+}
