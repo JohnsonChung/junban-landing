@@ -46,13 +46,23 @@
 		}
 	}
 	
-	&-jun-wlogo {		
+	&-jun-wlogo {	
+		@ratio: 0.3;
+		@h: 196px * @ratio;
+		@w:  1098px * @ratio;	
 		z-index: @img-z-5;		
 		background-image: url('../img/logo-word.png');
 		background-size: 100% auto;
-		height: 68px;
-		width: 320px;		
+		height: @h;
+		width: @w;		
 		margin-bottom: -68px;
+
+		&-sm {
+			@ratio: 0.15;
+			background-size: @w @h;
+			height: @h;
+			width: @w;
+		}
 	}
 	&-jun-logo {	
 		@h: 256px * 0.75;

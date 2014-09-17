@@ -25,9 +25,14 @@
   z-index: 50;
   background-image: url('../img/logo-word.png');
   background-size: 100% auto;
-  height: 68px;
-  width: 320px;
+  height: 58.8px;
+  width: 329.4px;
   margin-bottom: -68px;
+}
+.image-jun-wlogo-sm {
+  background-size: 164.7px 29.4px;
+  height: 29.4px;
+  width: 164.7px;
 }
 .image-jun-logo {
   background-image: url('../img/logo.png');
@@ -135,10 +140,22 @@ p {
   top: 0;
   z-index: 9999;
   width: 100%;
+  min-height: 40px;
   border: 0;
   text-align: center;
   background-color: #fcfcfc;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar .brand {
+  opacity: 0;
+  margin-top: 6px;
+  margin-left: 60px;
+  margin-right: -225px;
+  float: left;
+  -webkit-transition: opacity 0.1s linear;
+  -moz-transition: opacity 0.1s linear;
+  -o-transition: opacity 0.1s linear;
+  transition: opacity 0.1s linear;
 }
 .navbar .nav {
   display: inline-block;
@@ -146,6 +163,21 @@ p {
 }
 .navbar .nav > li {
   float: left;
+}
+.navbar .btn {
+  margin-top: 3px;
+}
+.nav-smint {
+  height: 40px;
+  text-align: center !important;
+  width: 100% !important;
+}
+.nav-smint.fxd .brand {
+  opacity: 1;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
 }
 .col-panel {
   position: relative;
@@ -336,4 +368,7 @@ body {
 }
 .section-content {
   padding-top: 135px;
+}
+#footer {
+  background: #fcfcfc;
 }
