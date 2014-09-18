@@ -55,7 +55,6 @@
 		background-size: 100% auto;
 		height: @h;
 		width: @w;		
-		margin-bottom: -68px;
 
 		&-sm {
 			@ratio: 0.15;
@@ -79,6 +78,7 @@
 		max-height: 768px;
 		width: 100%;
 		min-width: 480px;
+		min-height: 480px;
 	}
 	
 	// section object 
@@ -131,6 +131,18 @@
 		@h: 168px * @ratio;
 		@w: 250px * @ratio; 
 		background-image: url('../img/photo/thumb_device.png');	
+		background-size: @w @h ;
+		height: @h;
+		width: @w;
+		max-width: 100%;
+		.image-center;
+	}
+	// comic 
+	&-comic-stuff-busy {		
+		@ratio: 0.65;
+		@h: 407px * @ratio;
+		@w: 567px * @ratio; 
+		background-image: url('../img/comic/stuff-busy.png');	
 		background-size: @w @h ;
 		height: @h;
 		width: @w;

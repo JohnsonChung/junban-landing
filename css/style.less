@@ -46,7 +46,22 @@ body {
 .outline(@color: red) {
 	outline: 1px solid @color;
 }
-
+.va-bottom {
+	height: 100%;
+	
+	&:before {
+		content: "";
+		height: 100%;
+		width: 1px;
+		display: inline-block;		
+		vertical-align: middle;
+		margin-right: -0.25em; /* Adjusts for spacing */
+	}
+	.centered {
+		display: inline-block;		
+		vertical-align: middle;		
+	}
+}
 // =======================================
 // Style
 // =======================================
@@ -60,18 +75,53 @@ body {
 	height: 100%;
 	width: 100%;
 
+	// =======================================
+	// layout 
+	//
 	.herounit {
 		height: 100%;
-		.h100 {
+		margin-top: -60px;
+		padding-top: 60px;
+
+		.row-top {
+			height: 60px;
+			margin-bottom: -60px;
+		}
+		.row-center {
 			height: 100%;
-			[class*="col-"] {
+			margin-top: 60px;
+			margin-bottom: 68px;
+			overflow: hidden;
+			.outline;
+			
+			// left : intro picture
+			.col-left {
 				height: 100%;
+				min-height: 380px;
+			}
+			// right : intro text & btn-register
+			.col-right {	
+				height: 100%;
+				margin-top: -180px;
+				padding-top: 180px;
+
+				.col-rtop {
+					height: 100%;
+					margin-bottom: 180px;					
+				}
+				.col-rbottom {
+					margin-top: -180px;
+				}
 			}
 		}
-		.row.h100 {
-			margin-bottom: -68px;
+		.row-bottom {
+			height: 68px;
+			margin-top: -68px;
 		}
-	}
+	}	
+	//
+	// end layout
+	// =======================================
 	.row-nav-more {
 		// !ipt to avoid smint.js style
 		position: absolute !important;				
@@ -81,13 +131,13 @@ body {
 		top: auto !important;
 		left: 0 !important;
 		right: 0 !important;
-		bottom: 0px !important;		
+		bottom: -20px !important;		
 		text-align: center;
 
 		.btn-nav-more {			
 			font-size: 16px;
 			line-height: 16px;
-			padding: 18px 52px;
+			padding: 10px 52px;
 			background-color: white;
 			border-radius: 10px;
 			border: 1px solid #ccc;
