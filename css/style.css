@@ -179,6 +179,27 @@ p {
   -o-transition: opacity 0.5s linear;
   transition: opacity 0.5s linear;
 }
+.nav-footer {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+}
+.nav-footer ul {
+  padding: 0;
+}
+.nav-footer li {
+  display: inline-block;
+}
+.nav-footer-sub {
+  display: inline-block;
+  list-style: none;
+}
+.nav-footer-sub li:after {
+  content: "|";
+}
+.nav-footer-sub li:last-child:after {
+  content: "";
+}
 .col-panel {
   position: relative;
   margin: 8px -8px;
@@ -319,6 +340,12 @@ p {
 [class^="col-"] {
   outline: 1px solid #a2fffb;
 }
+body {
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  transition: all 1s linear;
+}
 html,
 body {
   height: 100%;
@@ -371,4 +398,6 @@ body {
 }
 #footer {
   background: #fcfcfc;
+  padding: 20px;
+  text-align: center;
 }

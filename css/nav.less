@@ -58,3 +58,29 @@
 		.transition(~"opacity 0.5s linear");
 	}
 }
+
+.nav-footer {	
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	
+	ul {
+		padding: 0;
+	}
+	li {
+		display: inline-block;	
+	}
+
+	&-sub {
+		display: inline-block;
+		list-style: none;
+		li {
+			&:after {
+				content: "|";
+			}
+			&:last-child:after {
+				content: "";
+			}
+		}
+	}
+}
