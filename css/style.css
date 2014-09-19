@@ -243,6 +243,24 @@ p {
 .col-panel .row [class^="col-"] {
   padding: 45px 60px;
 }
+.col-circle {
+  position: relative;
+  margin: 15px auto;
+  padding: 20px 0px;
+  overflow: hidden;
+  width: 240px;
+  height: 240px;
+  padding: 30px;
+  background: #fcfcfc;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  text-align: center;
+}
+.col-circle h5 {
+  font-size: 18px;
+  color: #858774;
+  line-height: 1.5;
+}
 .row[class*="section"] {
   margin-bottom: 20px;
   border-bottom: 1px solid blue;
@@ -339,7 +357,7 @@ p {
   border-width: 0 359px 359px 0;
   border-color: transparent rgba(0, 0, 0, 0.06) transparent transparent;
 }
-.section2 .panel-2-3 .image-photo-device::before {
+.section3 .panel-3-3 .image-photo-device::before {
   position: absolute;
   left: 100%;
   top: 0;
@@ -351,7 +369,7 @@ p {
   border-width: 350px 0 0 350px;
   border-color: transparent transparent transparent #eee;
 }
-.section2 .panel-2-3 .image-photo-device::after {
+.section3 .panel-3-3 .image-photo-device::after {
   position: absolute;
   left: 0;
   top: 100%;
