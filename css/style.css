@@ -401,6 +401,10 @@ body {
   padding-top: 48px;
   background-color: #fcfcfc;
   box-shadow: 0px 85px 85px rgba(0, 0, 0, 0.1);
+  background-image: url('../img/herounit.jpg');
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
   height: 100%;
   width: 100%;
 }
@@ -448,16 +452,14 @@ body {
   top: auto !important;
   left: 0 !important;
   right: 0 !important;
-  bottom: -20px !important;
+  bottom: -40px !important;
   text-align: center;
 }
 .section-hero .row-nav-more .btn-nav-more {
   font-size: 16px;
   line-height: 16px;
   padding: 10px 52px;
-  background-color: white;
   border-radius: 10px;
-  border: 1px solid #ccc;
 }
 .section-content {
   padding-top: 135px;
