@@ -192,10 +192,10 @@ p {
   text-align: center !important;
   width: 100% !important;
 }
-.nav-smint li > a.active {
+.nav-smint.fxd li > a.active {
   border-bottom: 6px solid;
 }
-.nav-smint li:last-child a.active {
+.nav-smint.fxd li:last-child a.active {
   border-bottom: none;
 }
 .nav-smint.fxd .brand {
