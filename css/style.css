@@ -115,6 +115,14 @@
   max-width: 100%;
   margin: 0 auto;
 }
+.image-comic-monitor-bb {
+  background-image: url('../img/comic/people-monitor-bingbong.png');
+  background-size: 440.05px 413.4px;
+  height: 413.4px;
+  width: 440.05px;
+  max-width: 100%;
+  margin: 0 auto;
+}
 body {
   font-family: 'メイリオ';
 }
