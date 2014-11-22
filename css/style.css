@@ -3,7 +3,6 @@
   display: block;
   background-position: center;
   background-repeat: no-repeat;
-  outline: dashed 1px #E89151;
 }
 .image.image-center {
   margin: 0 auto;
@@ -35,9 +34,9 @@
 }
 .image-jun-logo {
   background-image: url('../img/logo.png');
-  background-size: 192px 201px;
-  height: 192px;
-  width: 201px;
+  background-size: 256px 268px;
+  height: 256px;
+  width: 268px;
 }
 .image-hero-list {
   background-image: url('../img/Comic_申請書_B_長い待ってる人の列がなくなる.jpg');
@@ -132,6 +131,9 @@ h3,
 h4 {
   margin: 0px 0;
 }
+h1 {
+  color: #F09C35;
+}
 h2 {
   color: #F09C35;
   line-height: 2.5;
@@ -155,6 +157,7 @@ p {
   left: 0;
   top: 0;
   z-index: 9999;
+  margin-bottom: 0px;
   width: 100%;
   min-height: 40px;
   border: 0;
@@ -243,6 +246,17 @@ p {
 .col-panel .row [class^="col-"] {
   padding: 45px 60px;
 }
+.col-panel.panel-gray {
+  background-color: #ccc;
+}
+.col-panel.panel-gray h1,
+.col-panel.panel-gray h2,
+.col-panel.panel-gray h3 {
+  color: gray;
+}
+.col-panel.panel-gray h1 {
+  text-align: center;
+}
 .col-circle {
   position: relative;
   margin: 15px auto;
@@ -269,35 +283,15 @@ p {
   position: relative;
 }
 .section1 .panel-1-1 {
-  padding-top: 115px;
   background-image: url('../img/bg/clock.png');
   background-repeat: no-repeat;
   background-position: -50px -50px;
 }
-.section1 .panel-1-2 {
+.section1 .panel-1-3 {
   padding-bottom: 75px;
   background-image: url('../img/bg/atom.png');
   background-repeat: no-repeat;
   background-position: right top;
-}
-.section1 .image-jun-logo {
-  position: absolute;
-  left: 50%;
-  margin-left: -100px;
-  top: -65px;
-}
-.section1 .image-jun-logo::after {
-  position: absolute;
-  left: 76%;
-  top: 16px;
-  z-index: -1;
-  content: " ";
-  display: block;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 200px 0 0 200px;
-  border-color: transparent transparent transparent rgba(0, 0, 0, 0.06);
 }
 .section1 .image-ph-video {
   display: inline-block;
@@ -381,15 +375,6 @@ p {
   border-width: 0 375px 375px 0;
   border-color: transparent #eee transparent transparent;
 }
-[class^="col-"] {
-  outline: 1px solid #a2fffb;
-}
-body {
-  -webkit-transition: all 1s linear;
-  -moz-transition: all 1s linear;
-  -o-transition: all 1s linear;
-  transition: all 1s linear;
-}
 html,
 body {
   height: 100%;
@@ -416,71 +401,47 @@ body {
   vertical-align: middle;
 }
 .section-hero {
-  padding-top: 48px;
+  padding-top: 24px;
   background-color: #fcfcfc;
   box-shadow: 0px 85px 85px rgba(0, 0, 0, 0.1);
-  background-image: url('../img/herounit.jpg');
-  background-position: center;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  height: 100%;
   width: 100%;
+  background-image: -webkit-gradient(linear, left bottom, left bottom, color-stop(0.85, #ffffff), color-stop(1, #e0e0e0));
+  background-image: -o-linear-gradient(left bottom, #ffffff 85%, #e0e0e0 100%);
+  background-image: -moz-linear-gradient(left bottom, #ffffff 85%, #e0e0e0 100%);
+  background-image: -webkit-linear-gradient(left bottom, #ffffff 85%, #e0e0e0 100%);
+  background-image: -ms-linear-gradient(left bottom, #ffffff 85%, #e0e0e0 100%);
+  background-image: linear-gradient(to left bottom, #ffffff 85%, #e0e0e0 100%);
 }
-.section-hero .herounit {
+.section-hero .herounit > .row {
+  height: 580px;
+  min-height: 580px;
+}
+.section-hero .herounit > .row [class^="col-md-"] {
   height: 100%;
-  margin-top: -60px;
-  padding-top: 60px;
 }
-.section-hero .herounit .row-top {
-  height: 60px;
-  margin-bottom: -60px;
-}
-.section-hero .herounit .row-center {
+.section-hero .herounit > .row .col-left {
   height: 100%;
-  margin-top: 60px;
-  margin-bottom: 68px;
-  overflow: hidden;
-  outline: 1px solid #ff0000;
+  display: table;
 }
-.section-hero .herounit .row-center .col-left {
-  height: 100%;
-  min-height: 380px;
-}
-.section-hero .herounit .row-center .col-right {
-  height: 100%;
-  margin-top: -180px;
-  padding-top: 180px;
-}
-.section-hero .herounit .row-center .col-right .col-rtop {
-  height: 100%;
-  margin-bottom: 180px;
-}
-.section-hero .herounit .row-center .col-right .col-rbottom {
-  margin-top: -180px;
-}
-.section-hero .herounit .row-bottom {
-  height: 68px;
-  margin-top: -68px;
-}
-.section-hero .row-nav-more {
-  position: absolute !important;
-  height: 68px;
-  width: 100%;
-  margin: 0;
-  top: auto !important;
-  left: 0 !important;
-  right: 0 !important;
-  bottom: -40px !important;
+.section-hero .herounit > .row .col-left .wrapper {
+  display: table-cell;
   text-align: center;
+  vertical-align: middle;
 }
-.section-hero .row-nav-more .btn-nav-more {
-  font-size: 16px;
-  line-height: 16px;
-  padding: 10px 52px;
-  border-radius: 10px;
+.section-hero .herounit > .row .col-left .wrapper .image.image-jun-logo {
+  position: relative;
+  display: inline-block;
+}
+.section-hero .herounit > .row .col-left .wrapper .image.image-jun-logo .dialog {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 450px;
+  margin-left: -225px;
+  text-align: left;
 }
 .section-content {
-  padding-top: 135px;
+  padding-top: 65px;
 }
 #footer {
   background: #fcfcfc;
