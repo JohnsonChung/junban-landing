@@ -9,6 +9,7 @@
 // =======================================
 @import '../css/vender/lesshat.less';
 @import '../css/vender/variables.less';
+@import '../css/animate-lesshat.less';
 
 @import '../css/image.less';
 @import '../css/font.less';
@@ -122,14 +123,48 @@ li {
 					.image.image-jun-logo {
 						position: relative;		
 						display: inline-block;		
+						.animation(rollIn 1s);
 
 						.dialog {
+							.animation( zoomInDown 2s);
 							position: absolute;
 							top: 100%;
 							left: 50%;
 							width: 450px;
+							padding: 14px 36px 6px;
+							margin-top: 10px;
 							margin-left: -225px;
 							text-align: left;
+							border: 1px solid #12ACE7;
+							border-radius: 55px;
+							box-shadow: 0 10px 15px rgba(0,0,0,0.15);
+							
+							@top: 22px;
+							@left: 146px;
+							&:after {
+							    content: '';
+							    position: absolute;
+							    border-style: solid;
+							    border-width: 0 15px 22px;
+							    border-color: #FFFFFF transparent;
+							    display: block;
+							    width: 0;
+							    z-index: 1;
+							    top: -@top;
+							    left: @left;
+							}
+							&:before {
+							    content: '';
+							    position: absolute;
+							    border-style: solid;
+							    border-width: 0 16px 23px;
+							    border-color: #12ACE7 transparent;
+							    display: block;
+							    width: 0;
+							    z-index: 0;
+							    top: -@top - 1 ;
+							    left: @left - 1;
+							}
 						}				
 					}
 				}	

@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license
+
+Copyright (c) 2013 Daniel Eden
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+
+// attention_seekers
+@import "modules/bounce.less";
+@import "modules/flash.less";
+@import "modules/pulse.less";
+@import "modules/rubberBand.less";
+@import "modules/shake.less";
+@import "modules/swing.less";
+@import "modules/tada.less";
+@import "modules/wobble.less";
+
+// bouncing_entrances
+@import "modules/bounceIn.less";
+@import "modules/bounceInDown.less";
+@import "modules/bounceInLeft.less";
+@import "modules/bounceInRight.less";
+@import "modules/bounceInUp.less";
+
+// bouncing_exits
+@import "modules/bounceOut.less";
+@import "modules/bounceOutDown.less";
+@import "modules/bounceOutLeft.less";
+@import "modules/bounceOutRight.less";
+@import "modules/bounceOutUp.less";
+
+// fading_entrances
+@import "modules/fadeIn.less";
+@import "modules/fadeInDown.less";
+@import "modules/fadeInDownBig.less";
+@import "modules/fadeInLeft.less";
+@import "modules/fadeInLeftBig.less";
+@import "modules/fadeInRight.less";
+@import "modules/fadeInRightBig.less";
+@import "modules/fadeInUp.less";
+@import "modules/fadeInUpBig.less";
+
+// fading_exits
+@import "modules/fadeOut.less";
+@import "modules/fadeOutDown.less";
+@import "modules/fadeOutDownBig.less";
+@import "modules/fadeOutLeft.less";
+@import "modules/fadeOutLeftBig.less";
+@import "modules/fadeOutRight.less";
+@import "modules/fadeOutRightBig.less";
+@import "modules/fadeOutUp.less";
+@import "modules/fadeOutUpBig.less";
+
+// flippers
+@import "modules/flip.less";
+@import "modules/flipInX.less";
+@import "modules/flipInY.less";
+@import "modules/flipOutX.less";
+@import "modules/flipOutY.less";
+
+// lightspeed
+@import "modules/lightSpeedIn.less";
+@import "modules/lightSpeedOut.less";
+
+// rotating_entrances
+@import "modules/rotateIn.less";
+@import "modules/rotateInDownLeft.less";
+@import "modules/rotateInDownRight.less";
+@import "modules/rotateInUpLeft.less";
+@import "modules/rotateInUpRight.less";
+
+// rotating_exits
+@import "modules/rotateOut.less";
+@import "modules/rotateOutDownLeft.less";
+@import "modules/rotateOutDownRight.less";
+@import "modules/rotateOutUpLeft.less";
+@import "modules/rotateOutUpRight.less";
+
+// sliders
+@import "modules/slideInDown.less";
+@import "modules/slideInLeft.less";
+@import "modules/slideInRight.less";
+@import "modules/slideInUp.less";
+@import "modules/slideOutLeft";
+@import "modules/slideOutDown.less";
+@import "modules/slideOutRight.less";
+@import "modules/slideOutUp.less";
+
+// specials
+@import "modules/hinge.less";
+@import "modules/rollIn.less";
+@import "modules/rollOut.less";
+
+// zooming_entrances
+@import "modules/zoomIn.less";
+@import "modules/zoomInDown.less";
+@import "modules/zoomInLeft.less";
+@import "modules/zoomInRight.less";
+@import "modules/zoomInUp.less";
+
+// zooming_exits
+@import "modules/zoomOut.less";
+@import "modules/zoomOutDown.less";
+@import "modules/zoomOutLeft.less";
+@import "modules/zoomOutRight.less";
+@import "modules/zoomOutUp.less";
+
+.animated {
+	.animation-duration(1s);
+	.animation-fill-mode(both);
+}
+
+.animated.infinite {
+	.animation-iteration-count(infinite);
+}
+
+.animated.hinge {
+	.animation-duration(2s);
+}
