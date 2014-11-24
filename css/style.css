@@ -1527,6 +1527,8 @@ li {
   display: block;
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: white;
   border: 1px solid #c8c8c8;
   border-bottom-color: #aaaaaa;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
