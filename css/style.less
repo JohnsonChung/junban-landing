@@ -46,6 +46,12 @@ body {
 	padding-top: 0 !important;
 	background: @main-bg-color;
 }
+ul {
+	padding-left: 0;
+}
+li {
+	list-style: none;	
+}
 .outline(@color: red) {
 	outline: 1px solid @color;
 }
@@ -73,7 +79,8 @@ body {
 .section-hero {
 	padding-top: 24px;
 	background-color: @white-smooth;
-
+	
+	border-bottom: 1px solid #B0B0B0;
 	box-shadow: 0px 15px 35px rgba(0,0,0,0.2);
 
 	width: 100%;
@@ -84,7 +91,7 @@ body {
 		left bottom,
 		left bottom,
 		color-stop(0.85, #FFFFFF),
-		color-stop(1, #E0E0E0)
+		color-stop(1, #E0E0E0)		
 	);
 	background-image: -o-linear-gradient(left bottom, #FFFFFF 85%, #E0E0E0 100%);
 	background-image: -moz-linear-gradient(left bottom, #FFFFFF 85%, #E0E0E0 100%);
@@ -152,52 +159,45 @@ body {
 // =======================================
 // Table
 // =======================================
-table.css-table {
-	display: table;	
-    border-collapse: collapse;
-    border-spacing: 0;
-    border: 1px solid;
-    width: 100%;
-    height:100%;
-    margin:0px auto;
-    padding:0px;
-    font-size: 18px;
-    
 
-	tr {
-		width: 37%;
+.pricing-table {
+	
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid rgb(200,200,200);	
+	border-bottom-color: rgb(170,170,170);
+	box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+	font-size: 1.2em;
+	
 
-		th, td {
-			text-align: center;
-	        vertical-align:middle;
+	> li {	
+		text-align: center;
+		
+		&:first-child {
+			h4 {
+				font-weight: bold;		
+				font-size: 1.3em;			
+			}
+
+			&.premium-plan { 
+				background-color: #12ACE7;
+				h4 {
+					color: white;
+					
+				}
+			}
+		}	
+		&:nth-child(2) {
+			font-weight: bold;
 		}
-	    td {
-	        border:1px solid #000000;
-	        border-width:0px 1px 1px 0px;
-	        padding:7px;
-	    }
-        td:last-child {
-            border-width:0px 0px 1px 0px;
-        }
-        td:first-child {
-			background-color: #FFC184;
-			text-align: center;
-			font-weight: bold;									
-        }
-	}
-    tr:first-child {
-    	width: 26%;
+		&:last-child {
 
-    	th {
-			background-color: #fff;
-    	}
-        td:first-child {
-            border-top-left-radius:0px;
-        }
-        td:last-child {
-            border-top-right-radius:0px;
-        }
-    }
-    tr:last-child {
-    }
+		}
+	}
+	.transition(0.15s ease-in-out);
+	.transition-property(transform);
+	&:hover {
+		.transform(scale(1.07));
+	}
 }

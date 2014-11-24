@@ -225,7 +225,7 @@ p {
   position: relative;
   margin: 8px -8px;
   margin-bottom: 15px;
-  padding: 68px 0px;
+  padding: 58px 0px;
   overflow: hidden;
   min-height: 250px;
   background: #fcfcfc;
@@ -239,7 +239,7 @@ p {
   padding: 16px 60px;
 }
 .col-panel.panel-gray {
-  background-color: #ccc;
+  background-color: #E2E2E2;
 }
 .col-panel.panel-gray h1,
 .col-panel.panel-gray h2,
@@ -376,6 +376,12 @@ body {
   padding-top: 0 !important;
   background: #f5f0e6;
 }
+ul {
+  padding-left: 0;
+}
+li {
+  list-style: none;
+}
 .va-bottom {
   height: 100%;
 }
@@ -395,6 +401,7 @@ body {
 .section-hero {
   padding-top: 24px;
   background-color: #fcfcfc;
+  border-bottom: 1px solid #B0B0B0;
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.2);
   width: 100%;
   background-image: -webkit-gradient(linear, left bottom, left bottom, color-stop(0.85, #ffffff), color-stop(1, #e0e0e0));
@@ -440,47 +447,43 @@ body {
   padding: 20px;
   text-align: center;
 }
-table.css-table {
-  display: table;
-  border-collapse: collapse;
-  border-spacing: 0;
-  border: 1px solid;
+.pricing-table {
+  display: block;
   width: 100%;
-  height: 100%;
-  margin: 0px auto;
-  padding: 0px;
-  font-size: 18px;
+  margin: 0 auto;
+  border: 1px solid #c8c8c8;
+  border-bottom-color: #aaaaaa;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  font-size: 1.2em;
+  -webkit-transition: 0.15s ease-in-out;
+  -moz-transition: 0.15s ease-in-out;
+  -o-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: -webkit-transform,-moz-transform,-o-transform,transform;
 }
-table.css-table tr {
-  width: 37%;
-}
-table.css-table tr th,
-table.css-table tr td {
+.pricing-table > li {
   text-align: center;
-  vertical-align: middle;
 }
-table.css-table tr td {
-  border: 1px solid #000000;
-  border-width: 0px 1px 1px 0px;
-  padding: 7px;
+.pricing-table > li:first-child h4 {
+  font-weight: bold;
+  font-size: 1.3em;
 }
-table.css-table tr td:last-child {
-  border-width: 0px 0px 1px 0px;
+.pricing-table > li:first-child.premium-plan {
+  background-color: #12ACE7;
 }
-table.css-table tr td:first-child {
-  background-color: #FFC184;
-  text-align: center;
+.pricing-table > li:first-child.premium-plan h4 {
+  color: white;
+}
+.pricing-table > li:nth-child(2) {
   font-weight: bold;
 }
-table.css-table tr:first-child {
-  width: 26%;
-}
-table.css-table tr:first-child th {
-  background-color: #fff;
-}
-table.css-table tr:first-child td:first-child {
-  border-top-left-radius: 0px;
-}
-table.css-table tr:first-child td:last-child {
-  border-top-right-radius: 0px;
+.pricing-table:hover {
+  -webkit-transform: scale(1.07);
+  -moz-transform: scale(1.07);
+  -o-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  transform: scale(1.07);
 }
