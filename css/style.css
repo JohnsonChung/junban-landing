@@ -1490,6 +1490,7 @@ li {
   border: 1px solid #12ACE7;
   border-radius: 55px;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  white-space: nowrap;
 }
 .section-hero .herounit > .row .col-left .wrapper .image.image-jun-logo .dialog:after {
   content: '';
