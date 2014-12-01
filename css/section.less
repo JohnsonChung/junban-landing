@@ -21,6 +21,10 @@
 	box-shadow: @shadow-section;
 	border-radius: @border-radius-section;
 
+	ul {
+		padding-left: 35px;
+		list-style: disc inside;		
+	}
 	.row {
 		margin: 0;
 		[class^="col-"] {
@@ -114,34 +118,6 @@
 			border-color: transparent #eee transparent transparent;
 		}
 	}
-	.image-ob-muti-device {
-		position: absolute;
-		right: 50px; bottom: -35px;
-
-		// object shadow
-		&::before {
-			position: absolute;
-			left: 100%; top: 50%;			
-			content: " ";
-			display: block;			
-			width: 0;
-			height: 0;
-			border-style: solid;
-			border-width: 350px 0 0 350px;
-			border-color: transparent transparent transparent rgba(0, 0, 0, 0.06);
-		}
-		&::after {
-			position: absolute;
-			left: 0; top: 90%;
-			content: " ";
-			display: block;			
-			width: 0;
-			height: 0;
-			border-style: solid;
-			border-width: 0 359px 359px 0;
-			border-color: transparent rgba(0, 0, 0, 0.06) transparent transparent;
-		}
-	}
 }
 
 
@@ -173,5 +149,60 @@
 				border-color: transparent #eee transparent transparent;
 			}
 		}
+	}
+}
+
+.section-why {
+
+	.image-ob-muti-device {
+		position: absolute;
+		right: 50px; bottom: -35px;
+
+		// object shadow
+		&::before {
+			position: absolute;
+			left: 100%; top: 50%;			
+			content: " ";
+			display: block;			
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 350px 0 0 350px;
+			border-color: transparent transparent transparent rgba(0, 0, 0, 0.06);
+		}
+		&::after {
+			position: absolute;
+			left: 0; top: 90%;
+			content: " ";
+			display: block;			
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 0 359px 359px 0;
+			border-color: transparent rgba(0, 0, 0, 0.06) transparent transparent;
+		}
+	}
+}
+
+// =========================================
+.section-app-intro {
+	.col-md-12 {
+		margin-bottom: 30px;
+	}
+	.col-panel {
+		margin: 5px auto;
+		padding: 10px 15px;
+		.row {
+			padding: 0 -15px;
+			[class^="col-"] {
+				padding: 16px 20px;
+			}
+		}
+	}
+	.head-label {
+		background-color: #F09C35;
+		color: white;
+		padding: 0 12px;
+		margin-left: -15px;
 	}
 }
