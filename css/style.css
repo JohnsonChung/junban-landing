@@ -1330,6 +1330,9 @@ p {
   background-repeat: no-repeat;
   background-position: -50px -50px;
 }
+.section1 .panel-1-2 img {
+  margin-bottom: 25px;
+}
 .section1 .panel-1-3 {
   padding-bottom: 75px;
   background-image: url('../img/bg/atom.png');
