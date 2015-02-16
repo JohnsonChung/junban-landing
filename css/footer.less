@@ -99,6 +99,7 @@
 	box-shadow: 0 1px 0 #B4B3B3;
 }
 .social {
+	// default html <a href="#"> <i class="fa fa-twitter">   </i> </a>
 	li {
 		-moz-border-radius: 50%;
 		-moz-transition: all 0.5s ease 0s;
@@ -110,7 +111,7 @@
 		-webkit-transition: all 0.5s ease 0s;
 		background: none repeat scroll 0 0 @color2;
 		border-radius: 50%;
-		border: 2px solid @color2;
+		// border: 2px solid @color2;
 		float: left;
 		height: 36px;
 		line-height: 36px;
@@ -119,21 +120,28 @@
 		text-align: center;
 		transition: all 0.5s ease 0s;
 		width: 36px;
+		overflow: hidden;
+
 		&:hover {
 			-moz-transform: scale(1.1) rotate(360deg);
 			-ms-transform: scale(1.1) rotate(360deg);
 			-o-transform: scale(1.1) rotate(360deg);
 			-webkit-transform: scale(1.1) rotate(360deg);
 			background: @color3;
-			border: 2px solid @color3;
+			// border: 2px solid @color3;
 			transform: scale(1.15) rotate(360deg);
 		}
 		a {
 			color: @color0;
+			padding: 0 !important;
 			i {
 				color: @color0 !important;
 				font-size: 16px;
 				margin: 0 0 0 5px;
+			}
+			img {
+				height: 100%;
+				width: 100%;
 			}
 		}
 	}

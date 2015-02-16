@@ -1283,6 +1283,9 @@ p {
   padding-left: 35px;
   list-style: disc inside;
 }
+.col-panel > ul.nav {
+  padding: 18px;
+}
 .col-panel .row {
   margin: 0;
 }
@@ -1534,7 +1537,6 @@ p {
   -webkit-transition: all 0.5s ease 0s;
   background: none repeat scroll 0 0 #b5b5b5;
   border-radius: 50%;
-  border: 2px solid #b5b5b5;
   float: left;
   height: 36px;
   line-height: 36px;
@@ -1543,6 +1545,7 @@ p {
   text-align: center;
   transition: all 0.5s ease 0s;
   width: 36px;
+  overflow: hidden;
 }
 .social li:hover {
   -moz-transform: scale(1.1) rotate(360deg);
@@ -1550,16 +1553,20 @@ p {
   -o-transform: scale(1.1) rotate(360deg);
   -webkit-transform: scale(1.1) rotate(360deg);
   background: #2c3e50;
-  border: 2px solid #2c3e50;
   transform: scale(1.15) rotate(360deg);
 }
 .social li a {
   color: #edeff1;
+  padding: 0 !important;
 }
 .social li a i {
   color: #edeff1 !important;
   font-size: 16px;
   margin: 0 0 0 5px;
+}
+.social li a img {
+  height: 100%;
+  width: 100%;
 }
 .footer-bottom {
   background: #E3E3E3;
@@ -1605,6 +1612,9 @@ ul {
 .va-bottom .centered {
   display: inline-block;
   vertical-align: middle;
+}
+.table th {
+  width: 28%;
 }
 .section-hero {
   padding-top: 24px;
