@@ -180,40 +180,45 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"contents": "<!doctype html>\n<html>\n\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Junban Landing</title>\n\n    <!-- boilerplate -->\n    <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n\n    <!-- fonts -->\n\n    <!-- stylesheet -->\n    <link rel=\"stylesheet\" href=\"css/style.css\">\n\n    <!-- vendor -->\n    <script src=\"js/jquery.min.js\"></script>\n\n    <!-- javascript -->\n    <!-- <script src=\"js/template-load.js\"></script> -->\n\n\n</head>\n\n<body>\n\n    <div id=\"#t\">\n        \n    </div>\n    <!-- navbar -->\n    <nav class=\"navbar\">\n        <div class=\"nav-smint smint\">\n            <!-- Collect the nav links, forms, and other content for toggling -->\n            <div class=\"brand\">\n                <div class=\"image image-jun-wlogo image-jun-wlogo-sm\"></div>\n            </div>\n            <ul class=\"nav nav-section inner\">\n                <li>\n                    <a></a>\n                </li>\n            </ul>\n            <ul class=\"extLink nav-user pull-right\">\n                <li>\n                    <a class=\"btn btn-success\">登録</a>\n                </li>\n                <li>\n                    <a class=\"btn btn-primary btn-login\">ログイン</a>\n                </li>\n            </ul>\n        </div>\n    </nav>\n\n    <!-- maincontent -->\n    <div class=\"container section-content\">\n        <div class=\"row\">\n            <div class=\"col-md-3\">\n                <div class=\"col-panel\">\n                    <ul class=\"nav nav-pills nav-stacked\">\n                        <li role=\"presentation\"><a href=\"#\">特定商取引法に基づく表記</a>\n                        </li>\n                        <li role=\"presentation\" class=\"active\"><a href=\"#\">プライバシーポリシー</a>\n                        </li>\n                        <li role=\"presentation\"><a href=\"#\">サービスの対価</a>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <div class=\"col-md-9\">\n                <div class=\"col-panel\">\n                    <div class=\"row\">\n                        <div class=\"col-md-12\" id=\"template-container\">\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <!-- footer -->\n    <footer>\n        <div class=\"footer\" id=\"footer\">\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-lg-2  col-md-2 col-sm-4 col-xs-6\">\n                        <h3> 順番コンシェルについて </h3>\n                        <ul>\n                            <li> <a href=\"#\"> 〇〇〇〇〇 </a> </li>\n                            <li> <a href=\"#\"> 〇〇〇〇〇 </a> </li>\n                            <li> <a href=\"#\"> 〇〇〇〇〇 </a> </li>\n                            <li> <a href=\"#\"> 〇〇〇〇〇 </a> </li>\n                        </ul>\n                    </div>\n                    <div class=\"col-lg-2  col-md-2 col-sm-4 col-xs-6\">\n                        <h3> 〇〇〇〇 </h3>\n                        <ul>\n                            <li>\n                                <a href=\"#\"> </a>\n                            </li>\n                            <li> <a href=\"#\"> 〇〇〇〇〇 </a> </li>\n                            <li> <a href=\"#\"> 〇〇〇〇〇 </a> </li>\n                            <li> <a href=\"#\"> 〇〇〇〇〇 </a> </li>\n                        </ul>\n                    </div>\n                    <div class=\"col-lg-2  col-md-2 col-sm-4 col-xs-6\">\n                        <h3> 規約・ポリシー </h3>\n                        <ul>\n                            <li> <a href=\"#\"> 利用規約 </a> </li>\n                            <li> <a href=\"#\"> プライバシーポリシー </a> </li>\n                            <li> <a href=\"#\"> 利用ガイドライン </a> </li>\n                        </ul>\n                    </div>\n                    <div class=\"col-lg-2  col-md-2 col-sm-4 col-xs-6\">\n                        <h3> 運営会社について　</h3>\n                        <ul>\n                            <li> <a href=\"#\"> 会社情報 </a> </li>\n                            <li> <a href=\"#\"> 特定商取引法に基づく表記 </a> </li>\n                        </ul>\n                    </div>\n                    <div class=\"col-lg-3  col-md-3 col-sm-6 col-xs-12 \">\n                        <h3> 連絡先　</h3>\n                        <ul>\n                            <li>\n                                <a href=\"http://pse.or.jp\">\n                                    <img src=\"img/logo-pse-or.gif\" height=\"33\" width=\"257\" alt=\"\">\n                                </a>\n                            </li>\n                            <li><img src=\"img/phone-pse.png\" height=\"44\" width=\"189\" alt=\"\">\n                            </li>\n                        </ul>\n                        <ul>\n                            <li>\n                                <div class=\"input-append newsletter-box text-center\">\n                                    <input type=\"text\" class=\"full text-center\" placeholder=\"Email \">\n                                    <button class=\"btn  bg-gray\" type=\"button\"> Lorem ipsum <i class=\"fa fa-long-arrow-right\"> </i> </button>\n                                </div>\n                            </li>\n                        </ul>\n                        <ul class=\"social\">\n                            <li>\n                                <a href=\"#\"> <i class=\" fa fa-facebook\">   </i> </a>\n                            </li>\n                            <li>\n                                <a href=\"#\"> <i class=\"fa fa-twitter\">   </i> </a>\n                            </li>\n                            <li>\n                                <a href=\"#\"> <i class=\"fa fa-google-plus\">   </i> </a>\n                            </li>\n                            <li>\n                                <a href=\"#\"> <i class=\"fa fa-pinterest\">   </i> </a>\n                            </li>\n                            <li>\n                                <a href=\"#\"> <i class=\"fa fa-youtube\">   </i> </a>\n                            </li>\n                        </ul>\n                    </div>\n                </div>\n                <!--/.row-->\n            </div>\n            <!--/.container-->\n        </div>\n        <!--/.footer-->\n\n        <div class=\"footer-bottom\">\n            <div class=\"container\">\n                <p class=\"pull-left\"> Copyright © 順番コンシェル 2014. All right reserved. </p>\n                <div class=\"pull-right\">\n                    <ul class=\"nav nav-pills payments\">\n                        <li><i class=\"fa fa-cc-visa\"></i>\n                        </li>\n                        <li><i class=\"fa fa-cc-mastercard\"></i>\n                        </li>\n                        <li><i class=\"fa fa-cc-amex\"></i>\n                        </li>\n                        <li><i class=\"fa fa-cc-paypal\"></i>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n        <!--/.footer-bottom-->\n    </footer>\n\n    <script>\n    // smint Active\n    $(document).ready(function() {\n        $('.nav-smint').smint();\n    });\n    </script>\n</body>\n\n\n\n</html>\n",
+			"file": "index-privacy-policy.html",
+			"file_size": 12161,
+			"file_write_time": 130685790619067348,
 			"settings":
 			{
-				"buffer_size": 21547,
+				"buffer_size": 7066,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "index-pricing.html",
+			"file": "js/template-load.js",
 			"settings":
 			{
-				"buffer_size": 8824,
+				"buffer_size": 923,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "// =======================================\n// \n// 順番コンシェル　ランディングページ\n// \n// =======================================\n\n// =======================================\n// Import\n// =======================================\n@import '../css/vender/lesshat.less';\n@import '../css/vender/variables.less';\n@import '../css/animate-lesshat.less';\n\n@import '../css/image.less';\n@import '../css/font.less';\n\n@import '../css/nav.less';\n@import '../css/section.less';\n@import '../css/footer.less';\n\n\n// =======================================\n// dev tool\n// =======================================\n[class^=\"col-\"] {\n	// .outline(#A2FFFB);\n}\n\nbody {\n	// .transition(~\"all 1s linear\");\n}\n.image {\n	// outline: dashed 1px #E89151;\n}\n// =======================================\n// Preset\n// =======================================\n@main-bg-color: #f5f0e6;\n@white-smooth: #fcfcfc;\n\n@shadow-section: 0px 3px 5px rgba(0,0,0,0.3);\n@border-radius-section: 8px;\nhtml, body {\n	height: 100%;\n}\nhtml {\n  position: relative;\n  min-height: 100%;\n}\nbody {\n	mix-height: 100%;\n	padding-top: 0 !important;\n	background: @main-bg-color;\n}\nul {\n	padding-left: 0;\n	list-style: none;	\n}\n.outline(@color: red) {\n	outline: 1px solid @color;\n}\n.va-bottom {\n	height: 100%;\n	\n	&:before {\n		content: \"\";\n		height: 100%;\n		width: 1px;\n		display: inline-block;		\n		vertical-align: middle;\n		margin-right: -0.25em; /* Adjusts for spacing */\n	}\n	.centered {\n		display: inline-block;		\n		vertical-align: middle;		\n	}\n}\n// =======================================\n// Style\n// =======================================\n\n\n.section-hero {\n	padding-top: 24px;\n	background-color: @white-smooth;\n	\n	border-bottom: 1px solid #B0B0B0;\n	box-shadow: 0px 15px 35px rgba(0,0,0,0.2);\n\n	width: 100%;\n	\n	// herounit background gradient\n	background-image: -webkit-gradient(\n		linear,\n		left bottom,\n		left bottom,\n		color-stop(0.85, #FFFFFF),\n		color-stop(1, #E0E0E0)		\n	);\n	background-image: -o-linear-gradient(left bottom, #FFFFFF 85%, #E0E0E0 100%);\n	background-image: -moz-linear-gradient(left bottom, #FFFFFF 85%, #E0E0E0 100%);\n	background-image: -webkit-linear-gradient(left bottom, #FFFFFF 85%, #E0E0E0 100%);\n	background-image: -ms-linear-gradient(left bottom, #FFFFFF 85%, #E0E0E0 100%);\n	background-image: linear-gradient(to left bottom, #FFFFFF 85%, #E0E0E0 100%);\n\n	// =======================================\n	// layout \n	//\n	.herounit {\n		> .row {\n			height: 580px;\n			min-height: 580px;\n\n			[class^=\"col-md-\"] {\n				height: 100%;\n			}			\n			.col-left {\n				height: 100%;\n				display: table;\n				\n				.wrapper {\n					display: table-cell;\n					text-align: center;		\n					vertical-align: middle;\n					\n					.image.image-jun-logo {\n						position: relative;		\n						display: inline-block;		\n						.animation(rollIn 1s);\n\n						.dialog {\n							.animation( zoomInDown 2s);\n							position: absolute;\n							top: 100%;\n							left: 50%;\n							width: 450px;\n							padding: 14px 36px 6px;\n							margin-top: 10px;\n							margin-left: -225px;\n							text-align: left;\n							border: 1px solid #12ACE7;\n							border-radius: 55px;\n							box-shadow: 0 10px 15px rgba(0,0,0,0.15);							\n							white-space: nowrap;\n							\n							@top: 22px;\n							@left: 146px;\n							&:after {\n							    content: '';\n							    position: absolute;\n							    border-style: solid;\n							    border-width: 0 15px 22px;\n							    border-color: #FFFFFF transparent;\n							    display: block;\n							    width: 0;\n							    z-index: 1;\n							    top: -@top;\n							    left: @left;\n							}\n							&:before {\n							    content: '';\n							    position: absolute;\n							    border-style: solid;\n							    border-width: 0 16px 23px;\n							    border-color: #12ACE7 transparent;\n							    display: block;\n							    width: 0;\n							    z-index: 0;\n							    top: -@top - 1 ;\n							    left: @left - 1;\n							}\n						}				\n					}\n				}	\n			}\n			.col-right {\n\n			}\n		}\n	}	\n	//\n	// end layout\n	// =======================================\n}\n.section-content {\n	padding-top: 65px;\n}\n\n#footer {\n	background: @white-smooth;\n	padding: 20px;\n	text-align: center;\n}\n\n\n\n// =======================================\n// Table\n// =======================================\n\n.pricing-table {\n	\n	display: block;\n	width: 100%;\n	height: 250px;\n	margin: 0 auto;\n	margin-bottom: 20px;\n	background-color: white;\n	border: 1px solid rgb(200,200,200);	\n	border-bottom-color: rgb(170,170,170);\n	box-shadow: 0 10px 25px rgba(0,0,0,0.15);\n	font-size: 1.2em;\n\n	> li {	\n		text-align: center;\n		\n		&:first-child {\n			h4 {\n				font-weight: bold;		\n				font-size: 1.3em;			\n			}\n\n			&.premium-plan { \n				background-color: #12ACE7;\n				h4 {\n					color: white;\n					\n				}\n			}\n		}	\n		&:nth-child(2) {\n			font-weight: bold;\n		}\n		&:last-child {\n\n		}\n	}\n	.transition(0.15s ease-in-out);\n	.transition-property(transform);\n	&:hover {\n		.transform(scale(1.03));\n	}\n}\n",
 			"file": "css/style.less",
-			"file_size": 5302,
-			"file_write_time": 130678105336942627,
 			"settings":
 			{
-				"buffer_size": 4846,
+				"buffer_size": 4923,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "// Color variables (appears count calculates by raw css)\n@color0: #edeff1; // Appears 3 times\n@color1: #ffffff; // Appears 2 times\n@color2: #b5b5b5; // Appears 2 times\n@color3: #2c3e50; // Appears 2 times\n@color4: #dddddd; // Appears 2 times\n\n// Width variables (appears count calculates by raw css)\n@width1: 100%; // Appears 6 times\n\n// Height variables (appears count calculates by raw css)\n@height2: 30px; // Appears 2 times\n\n.full {\n	width: @width1;\n}\n.gap {\n	clear: both;\n	display: block;\n	height: @height2;\n	width: @width1;\n}\n.footer-sticky {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  background-color: #f5f5f5;\n}\n.footer {\n	background: @color0;\n	border-bottom: 1px solid #CCCCCC;\n	border-top: 1px solid @color4;\n	height: auto;\n	padding-bottom: 30px;\n	position: relative;\n	width: @width1;\n	p {\n		margin: 0;\n	}\n	img {\n		max-width: @width1;\n	}\n	h3 {\n		border-bottom: 1px solid #BAC1C8;\n		color: #54697E;\n		font-size: 18px;\n		font-weight: 600;\n		line-height: 27px;\n		padding: 40px 0 10px;\n		text-transform: uppercase;\n	}\n	ul {\n		color: #7F8C8D;\n		font-size: 13px;\n		list-style-type: none;\n		margin-left: 0;\n		margin-top: 15px;\n		padding-left: 0;\n		li {\n			a {\n				display: block;\n				padding: 0 0 5px 0;\n			}\n		}\n	}\n	a {\n		color: #78828D;\n	}\n}\n.supportLi {\n	h4 {\n		font-size: 20px;\n		font-weight: lighter;\n		line-height: normal;\n		margin-bottom: 0 !important;\n		padding-bottom: 0;\n	}\n}\n.newsletter-box {\n	overflow: hidden;\n	input#appendedInputButton {\n		background: @color1;\n		clear: both;\n		display: inline-block;\n		float: left;\n		height: @height2;\n		width: @width1;\n	}\n	.btn {\n		-moz-border-radius: 3px;\n		-ms-border-radius: 3px;\n		-o-border-radius: 3px;\n		-webkit-border-radius: 3px;\n		border-radius: 3px;\n		border: medium none;\n		color: @color1;\n		display: inline-block;\n		height: 40px;\n		padding: 0;\n		width: @width1;\n	}\n}\n.bg-gray {\n	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);\n	box-shadow: 0 1px 0 #B4B3B3;\n}\n.social {\n	li {\n		-moz-border-radius: 50%;\n		-moz-transition: all 0.5s ease 0s;\n		-ms-border-radius: 50%;\n		-ms-transition: all 0.5s ease 0s;\n		-o-border-radius: 50%;\n		-o-transition: all 0.5s ease 0s;\n		-webkit-border-radius: 50%;\n		-webkit-transition: all 0.5s ease 0s;\n		background: none repeat scroll 0 0 @color2;\n		border-radius: 50%;\n		border: 2px solid @color2;\n		float: left;\n		height: 36px;\n		line-height: 36px;\n		margin: 0 8px 0 0;\n		padding: 0;\n		text-align: center;\n		transition: all 0.5s ease 0s;\n		width: 36px;\n		&:hover {\n			-moz-transform: scale(1.1) rotate(360deg);\n			-ms-transform: scale(1.1) rotate(360deg);\n			-o-transform: scale(1.1) rotate(360deg);\n			-webkit-transform: scale(1.1) rotate(360deg);\n			background: @color3;\n			border: 2px solid @color3;\n			transform: scale(1.15) rotate(360deg);\n		}\n		a {\n			color: @color0;\n			i {\n				color: @color0 !important;\n				font-size: 16px;\n				margin: 0 0 0 5px;\n			}\n		}\n	}\n}\n.footer-bottom {\n	background: #E3E3E3;\n	border-top: 1px solid @color4;\n	padding-bottom: 10px;\n	padding-top: 10px;\n	p.pull-left {\n		padding-top: 6px;\n	}\n}\n.payments {\n	font-size: 1.5em;\n}",
-			"file": "css/footer.less",
-			"file_size": 3251,
-			"file_write_time": 130678106157362929,
+			"file": "css/section.less",
 			"settings":
 			{
-				"buffer_size": 3094,
+				"buffer_size": 3879,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/footer.less",
+			"settings":
+			{
+				"buffer_size": 3166,
 				"line_ending": "Windows",
 				"name": "// Color variables (appears count calculates by ra"
 			}
@@ -352,26 +357,31 @@
 	"expanded_folders":
 	[
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing",
-		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/css"
+		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/css",
+		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/js",
+		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/template"
 	],
 	"file_history":
 	[
-		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/index-fullpage.html",
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/index-pricing.html",
+		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/template/pricing.html",
+		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/template/commercial-law.html",
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/index-commercial-law.html",
+		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/css/style.css",
+		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/css/style.less",
+		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/css/section.less",
+		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/index.html",
+		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/index-fullpage.html",
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/bower_components/fullpage.js/bower.json",
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/.gitignore",
 		"/C/Users/Kamimusuhi/Desktop/圖像包.xml",
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/js/fullpage-initialization.js",
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/bower_components/fullpage.js/.bower.json",
-		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/css/style.less",
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/koala-config.json",
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/css/nav.less",
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/css/font.less",
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/css/image.less",
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/css/animate.less",
-		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/index.html",
-		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/css/section.less",
 		"/C/Users/Kamimusuhi/Documents/GitHub/myPolymer/index.html",
 		"/C/Users/Kamimusuhi/Documents/GitHub/myPolymer/bower.json",
 		"/C/Users/Kamimusuhi/Documents/GitHub/hello-world-element/Gruntfile.js",
@@ -396,7 +406,6 @@
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/css/lab.less",
 		"/C/Users/Kamimusuhi/AppData/Local/Temp/Rar$DIa0.871/component.css",
 		"/C/Users/Kamimusuhi/AppData/Local/Temp/Rar$DIa0.289/demo.css",
-		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/css/style.css",
 		"/C/Users/Kamimusuhi/AppData/Local/Temp/Rar$DIa0.106/demo.css",
 		"/C/Users/Kamimusuhi/AppData/Local/Temp/Rar$DIa0.713/demo.css",
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban/css/console-application.less",
@@ -481,9 +490,7 @@
 		"/C/wamp/scripts/config.inc.php",
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-handheld/www/lib/ionic/scss/ionic.scss",
 		"/C/Users/Kamimusuhi/Desktop/[APP]Line-9/APPLICATION/index-template-load.html",
-		"/C/Program Files/Sublime Text 3/Data/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
-		"/C/Program Files/Sublime Text 3/Data/Packages/View In Browser/View In Browser.sublime-settings",
-		"/C/Users/Kamimusuhi/Desktop/[APP]Line-9/APPLICATION/css/combine-app-kiosk.css"
+		"/C/Program Files/Sublime Text 3/Data/Packages/Color Highlighter/ColorHighlighter.sublime-settings"
 	],
 	"find":
 	{
@@ -501,6 +508,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"col-panel",
+			"=======",
+			"panel",
+			"-panel",
+			"col-panel",
+			"plan",
+			"section-plan",
 			"footer",
 			"block",
 			"カスタマイズ",
@@ -621,14 +635,7 @@
 			"...",
 			"line-he",
 			"2px",
-			"<",
-			");\n",
-			"tab",
-			"\"\">",
-			"radius",
-			"label",
-			"md-6",
-			"ログイン"
+			"<"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -647,24 +654,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "index-privacy-policy.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 21547,
+						"buffer_size": 7066,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15846,
-								15846
+								565,
+								565
 							]
 						],
 						"settings":
@@ -673,36 +680,26 @@
 							"auto_complete": false,
 							"bh_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -713,21 +710,31 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
-								"bh_default_content"
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme",
 							"syntax": "Packages/HTML/HTML.tmLanguage",
@@ -735,27 +742,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8403.0,
+						"translation.y": 288.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "index-pricing.html",
+					"file": "js/template-load.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8824,
+						"buffer_size": 923,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3086,
-								3086
+								442,
+								442
 							]
 						],
 						"settings":
@@ -764,36 +771,26 @@
 							"auto_complete": false,
 							"bh_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -804,32 +801,42 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
-								"bh_default_content"
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1705.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -838,15 +845,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4846,
+						"buffer_size": 4923,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								626,
-								626
+								585,
+								589
 							]
 						],
 						"settings":
@@ -854,36 +861,26 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -894,48 +891,147 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
-								"bh_default_content"
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme",
 							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4609.0,
+						"translation.y": 5019.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "css/footer.less",
+					"file": "css/section.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3094,
+						"buffer_size": 3879,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1499,
-								1499
+								532,
+								534
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/footer.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2970,
+								2970
 							]
 						],
 						"settings":
@@ -944,36 +1040,6 @@
 							"auto_name": "// Color variables (appears count calculates by ra",
 							"bh_regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -984,21 +1050,51 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
-								"bh_default_content"
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme",
 							"spell_check": true,
@@ -1006,10 +1102,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1632.0,
+						"translation.y": 1081.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1071,7 +1167,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\Kamimusuhi\\Documents\\GitHub\\abareusagi Code\\abareusagi.sublime-project"
+				"C:\\Users\\Kamimusuhi\\Documents\\GitHub\\junban\\junban.sublime-project"
 			]
 		],
 		"width": 380.0
