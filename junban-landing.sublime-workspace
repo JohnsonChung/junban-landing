@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"pri",
+				"index-privacy-policy.html"
+			],
+			[
 				"ap",
 				"app-manager-smartphone.png	w:316 h:320"
 			],
@@ -180,21 +184,28 @@
 	"buffers":
 	[
 		{
-			"contents": "<!doctype html>\n<html>\n\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Junban Landing</title>\n\n    <!-- boilerplate -->\n    <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n\n    <!-- fonts -->\n\n    <!-- stylesheet -->\n    <link rel=\"stylesheet\" href=\"css/style.css\">\n\n    <!-- vendor -->\n    <script src=\"js/jquery.min.js\"></script>\n\n    <!-- javascript -->\n    <!-- <script src=\"js/template-load.js\"></script> -->\n\n\n</head>\n\n<body>\n\n    <div id=\"#t\">\n        \n    </div>\n    <!-- navbar -->\n    <nav class=\"navbar\">\n        <div class=\"nav-smint smint\">\n            <!-- Collect the nav links, forms, and other content for toggling -->\n            <div class=\"brand\">\n                <div class=\"image image-jun-wlogo image-jun-wlogo-sm\"></div>\n            </div>\n            <ul class=\"nav nav-section inner\">\n                <li>\n                    <a></a>\n                </li>\n            </ul>\n            <ul class=\"extLink nav-user pull-right\">\n                <li>\n                    <a class=\"btn btn-success\">登録</a>\n                </li>\n                <li>\n                    <a class=\"btn btn-primary btn-login\">ログイン</a>\n                </li>\n            </ul>\n        </div>\n    </nav>\n\n    <!-- maincontent -->\n    <div class=\"container section-content\">\n        <div class=\"row\">\n            <div class=\"col-md-3\">\n                <div class=\"col-panel\">\n                    <ul class=\"nav nav-pills nav-stacked\">\n                        <li role=\"presentation\"><a href=\"#\">特定商取引法に基づく表記</a>\n                        </li>\n                        <li role=\"presentation\" class=\"active\"><a href=\"#\">プライバシーポリシー</a>\n                        </li>\n                        <li role=\"presentation\"><a href=\"#\">サービスの対価</a>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <div class=\"col-md-9\">\n                <div class=\"col-panel\">\n                    <div class=\"row\">\n                        <div class=\"col-md-12\" id=\"template-container\">\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <!-- footer -->\n    <footer>\n        <div class=\"footer\" id=\"footer\">\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-lg-2  col-md-2 col-sm-4 col-xs-6\">\n                        <h3> 順番コンシェルについて </h3>\n                        <ul>\n                            <li> <a href=\"#\"> 〇〇〇〇〇 </a> </li>\n                            <li> <a href=\"#\"> 〇〇〇〇〇 </a> </li>\n                            <li> <a href=\"#\"> 〇〇〇〇〇 </a> </li>\n                            <li> <a href=\"#\"> 〇〇〇〇〇 </a> </li>\n                        </ul>\n                    </div>\n                    <div class=\"col-lg-2  col-md-2 col-sm-4 col-xs-6\">\n                        <h3> 〇〇〇〇 </h3>\n                        <ul>\n                            <li>\n                                <a href=\"#\"> </a>\n                            </li>\n                            <li> <a href=\"#\"> 〇〇〇〇〇 </a> </li>\n                            <li> <a href=\"#\"> 〇〇〇〇〇 </a> </li>\n                            <li> <a href=\"#\"> 〇〇〇〇〇 </a> </li>\n                        </ul>\n                    </div>\n                    <div class=\"col-lg-2  col-md-2 col-sm-4 col-xs-6\">\n                        <h3> 規約・ポリシー </h3>\n                        <ul>\n                            <li> <a href=\"#\"> 利用規約 </a> </li>\n                            <li> <a href=\"#\"> プライバシーポリシー </a> </li>\n                            <li> <a href=\"#\"> 利用ガイドライン </a> </li>\n                        </ul>\n                    </div>\n                    <div class=\"col-lg-2  col-md-2 col-sm-4 col-xs-6\">\n                        <h3> 運営会社について　</h3>\n                        <ul>\n                            <li> <a href=\"#\"> 会社情報 </a> </li>\n                            <li> <a href=\"#\"> 特定商取引法に基づく表記 </a> </li>\n                        </ul>\n                    </div>\n                    <div class=\"col-lg-3  col-md-3 col-sm-6 col-xs-12 \">\n                        <h3> 連絡先　</h3>\n                        <ul>\n                            <li>\n                                <a href=\"http://pse.or.jp\">\n                                    <img src=\"img/logo-pse-or.gif\" height=\"33\" width=\"257\" alt=\"\">\n                                </a>\n                            </li>\n                            <li><img src=\"img/phone-pse.png\" height=\"44\" width=\"189\" alt=\"\">\n                            </li>\n                        </ul>\n                        <ul>\n                            <li>\n                                <div class=\"input-append newsletter-box text-center\">\n                                    <input type=\"text\" class=\"full text-center\" placeholder=\"Email \">\n                                    <button class=\"btn  bg-gray\" type=\"button\"> Lorem ipsum <i class=\"fa fa-long-arrow-right\"> </i> </button>\n                                </div>\n                            </li>\n                        </ul>\n                        <ul class=\"social\">\n                            <li>\n                                <a href=\"#\"> <i class=\" fa fa-facebook\">   </i> </a>\n                            </li>\n                            <li>\n                                <a href=\"#\"> <i class=\"fa fa-twitter\">   </i> </a>\n                            </li>\n                            <li>\n                                <a href=\"#\"> <i class=\"fa fa-google-plus\">   </i> </a>\n                            </li>\n                            <li>\n                                <a href=\"#\"> <i class=\"fa fa-pinterest\">   </i> </a>\n                            </li>\n                            <li>\n                                <a href=\"#\"> <i class=\"fa fa-youtube\">   </i> </a>\n                            </li>\n                        </ul>\n                    </div>\n                </div>\n                <!--/.row-->\n            </div>\n            <!--/.container-->\n        </div>\n        <!--/.footer-->\n\n        <div class=\"footer-bottom\">\n            <div class=\"container\">\n                <p class=\"pull-left\"> Copyright © 順番コンシェル 2014. All right reserved. </p>\n                <div class=\"pull-right\">\n                    <ul class=\"nav nav-pills payments\">\n                        <li><i class=\"fa fa-cc-visa\"></i>\n                        </li>\n                        <li><i class=\"fa fa-cc-mastercard\"></i>\n                        </li>\n                        <li><i class=\"fa fa-cc-amex\"></i>\n                        </li>\n                        <li><i class=\"fa fa-cc-paypal\"></i>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n        <!--/.footer-bottom-->\n    </footer>\n\n    <script>\n    // smint Active\n    $(document).ready(function() {\n        $('.nav-smint').smint();\n    });\n    </script>\n</body>\n\n\n\n</html>\n",
-			"file": "index-privacy-policy.html",
-			"file_size": 12161,
-			"file_write_time": 130685790619067348,
+			"file": "policy-templates.html",
 			"settings":
 			{
-				"buffer_size": 7066,
+				"buffer_size": 7619,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/template-load.js",
+			"contents": "Package Control Messages\n========================\n\nBabel:\n-----\n\n  babel-sublime (previously 6to5-sublime)\n  ---------------------------------------\n  \n  6to5 is now Babel, so 6to5-sublime is now babel-sublime.\n  \n  ",
 			"settings":
 			{
-				"buffer_size": 923,
+				"buffer_size": 216,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "template/pricing.html",
+			"settings":
+			{
+				"buffer_size": 1155,
 				"line_ending": "Windows"
 			}
 		},
@@ -363,6 +374,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/js/template-load.js",
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/index-pricing.html",
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/template/pricing.html",
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-landing/template/commercial-law.html",
@@ -489,8 +501,7 @@
 		"/C/Program Files/Sublime Text 3/Data/Packages/User/Default (Windows).sublime-keymap",
 		"/C/wamp/scripts/config.inc.php",
 		"/C/Users/Kamimusuhi/Documents/GitHub/junban-handheld/www/lib/ionic/scss/ionic.scss",
-		"/C/Users/Kamimusuhi/Desktop/[APP]Line-9/APPLICATION/index-template-load.html",
-		"/C/Program Files/Sublime Text 3/Data/Packages/Color Highlighter/ColorHighlighter.sublime-settings"
+		"/C/Users/Kamimusuhi/Desktop/[APP]Line-9/APPLICATION/index-template-load.html"
 	],
 	"find":
 	{
@@ -659,25 +670,145 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index-privacy-policy.html",
+					"file": "policy-templates.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7066,
+						"buffer_size": 7619,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								565,
-								565
+								1591,
+								1591
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
 							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 768.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								216,
+								216
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1128.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "template/pricing.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								259,
+								259
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
 								"bh_c_define",
@@ -742,105 +873,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 288.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/template-load.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 923,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								442,
-								442
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "css/style.less",
 					"semi_transient": false,
 					"settings":
@@ -925,11 +965,11 @@
 						"translation.y": 5019.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "css/section.less",
 					"semi_transient": false,
 					"settings":
@@ -1014,11 +1054,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "css/footer.less",
 					"semi_transient": false,
 					"settings":
@@ -1105,7 +1145,7 @@
 						"translation.y": 1081.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
