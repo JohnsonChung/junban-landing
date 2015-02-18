@@ -28,14 +28,14 @@
 <body>
     <!-- Template -->
     <div id="template-preload" hidden>
-        <iframe id="template1" src="template/commercial-law.html"></iframe>        
-        <iframe id="template2" src="template/privacy-policy.html"></iframe>      
+        <iframe id="template1" src="template/commercial-law.html"></iframe>
+        <iframe id="template2" src="template/privacy-policy.html"></iframe>
         <script>
         $(window).load(function() {
             var template = getTemplate('#button1');
             setContent(template());
         });
-        </script>        
+        </script>
     </div>
 
     <!-- navbar -->
@@ -43,7 +43,9 @@
         <div class="nav-smint smint">
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="brand">
-               <a href="index.html"><div class="image image-jun-wlogo image-jun-wlogo-sm"></div></a>
+                <a href="index.html">
+                    <div class="image image-jun-wlogo image-jun-wlogo-sm"></div>
+                </a>
             </div>
             <ul class="nav nav-section inner">
                 <li>
@@ -65,13 +67,18 @@
     <div class="container section-content">
         <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-3">
-                <div class="col-panel">                    
-                    <ul class="nav nav-pills nav-stacked" data="template-count">                        
-                        <li role="presentation" class="active"><a href="#" id="button1" data-target="template1">特定商取引法に基づく表記</a>
-                        </li>
-                        <li role="presentation"><a href="#" id="button2" data-target="template2">プライバシーポリシー</a>
-                        </li>
-                    </ul>
+                <div class="col-panel panel panel-primary">
+                    <div class="panel-heading">
+                        <h3>規約・ポリシー</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="nav nav-pills nav-stacked" data="template-count">
+                            <li role="presentation" class="active"><a href="#" id="button1" data-target="template1">特定商取引法に基づく表記</a>
+                            </li>
+                            <li role="presentation"><a href="#" id="button2" data-target="template2">プライバシーポリシー</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-9 col-md-8 col-sm-9">
@@ -101,7 +108,10 @@
                     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <h3> 〇〇〇〇 </h3>
                         <ul class="social">
-                            <li><a href="#"><img src="img/icon/g+48.png" alt="g+"></a></li>
+                            <li>
+                                <a href="#"><img src="img/icon/g+48.png" alt="g+">
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
@@ -113,7 +123,7 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                         <h3> 運営会社について　</h3>
-                        <ul>                        
+                        <ul>
                             <li>
                                 <a href="http://pse.or.jp">
                                     <img src="img/logo-pse-or.gif" height="33" width="257" alt="">

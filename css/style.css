@@ -1191,6 +1191,13 @@ p {
   line-height: 1.8;
   padding: 0em 2em;
 }
+.panel-primary h1,
+.panel-primary h2,
+.panel-primary h3,
+.panel-primary h4,
+.panel-primary h5 {
+  color: white;
+}
 .text-blur {
   color: #999;
 }
