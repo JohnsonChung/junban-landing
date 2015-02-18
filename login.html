@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Junban Landing</title>
+
+    <!-- boilerplate -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- fonts -->
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- vendor -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/handlebars.min.js"></script>
+
+    <!-- javascript -->
+    <script src="js/template-load.js"></script>
+
+
+</head>
+
+<body>
+    <!-- Template -->
+    <div id="template-preload" hidden>
+        <iframe id="template1" src="template/commercial-law.html"></iframe>
+        <iframe id="template2" src="template/privacy-policy.html"></iframe>
+        <script>
+        $(window).load(function() {
+            var template = getTemplate('#button1');
+            setContent(template());
+        });
+        </script>
+    </div>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="nav-smint smint">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="brand">
+                <a href="index.html">
+                    <div class="image image-jun-wlogo image-jun-wlogo-sm"></div>
+                </a>
+            </div>
+            <ul class="nav nav-section inner">
+                <li>
+                    <a></a>
+                </li>
+            </ul>
+            <ul class="extLink nav-user pull-right">
+                <li>
+                    <a class="btn btn-success">登録</a>
+                </li>
+                <li>
+                    <a class="btn btn-primary btn-login">ログイン</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- maincontent -->
+    <div class="container section-content section-login">
+        <div class="row">
+            <div class="col-md-5 col-sm-12 col-md-push-7">
+                <div class="col-panel panel panel-default">
+                    <div class="panel-heading">ログイン
+                        <span class="pull-right">または<a>アカウントを作成</a></span>
+                    </div>
+                    <div class="panel-body">
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-block btn-default btn-primary">Sign in</button>
+                            </div>
+                            <label>
+                                <input type="checkbox">&nbspRemember me</label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 col-sm-12 col-md-pull-5">
+                <div class="col-panel">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>あなたに専属の&nbsp<span>&#8220 順番コンシェル &#8221</span></h1>
+                            <dl>
+                                <dt>一、タブレットとスマホ簡単に始められます。</dt>
+                                <dd>アプリ版はAndroidのみ準備して今うs。
+                                </dd>
+                                <dt>ニ、利用料は無料コースから。気軽に始められます。</dt>
+                                <dd>登録件数一日100件まで無料。
+                                </dd>
+                                <dt>三、発券プリンタ不要で維持費がかかりません。</dt>
+                                <dd>お客様の手書きサインが登録されますので、周辺機器不要。
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="footer-img"></div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-md-12 column">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <h3> 順番コンシェルについて </h3>
+                        <ul>
+                            <li> <a href="#"> 〇〇〇〇〇 </a> </li>
+                            <li> <a href="#"> 〇〇〇〇〇 </a> </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <h3> 〇〇〇〇 </h3>
+                        <ul class="social">
+                            <li>
+                                <a href="#"><img src="img/icon/g+48.png" alt="g+">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                        <h3> 規約・ポリシー </h3>
+                        <ul>
+                            <li> <a href="#"> 特定商取引法に基づく表記 </a> </li>
+                            <li> <a href="#"> プライバシーポリシー </a> </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <h3> 運営会社について　</h3>
+                        <ul>
+                            <li>
+                                <a href="http://pse.or.jp">
+                                    <img src="img/logo-pse-or.gif" height="33" width="257" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><img src="img/phone-pse.png" height="44" width="189" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </div>
+        <!--/.footer-->
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="pull-left"> Copyright © 順番コンシェル 2014. All right reserved. </p>
+                <div class="pull-right">
+                    <ul class="nav nav-pills payments">
+                        <li><i class="fa fa-cc-visa"></i>
+                        </li>
+                        <li><i class="fa fa-cc-mastercard"></i>
+                        </li>
+                        <li><i class="fa fa-cc-amex"></i>
+                        </li>
+                        <li><i class="fa fa-cc-paypal"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--/.footer-bottom-->
+    </footer>
+</body>
+
+
+
+</html>
