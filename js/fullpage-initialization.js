@@ -2,10 +2,10 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
         //Navigation
         menu: '#menu',
-        anchors:['top', 'what-junban', 'store-problem', 'why-junban', 'how-junban', 'try-junban', 'ask-junban', 'spec-junban'],
+        anchors:['top', 'what-junban', 'store-problem', 'why-junban', 'how-junban', 'try-junban', 'pricing', 'ask-junban', 'spec-junban'],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['what-junban', 'store-problem', 'why-junban', 'how-junban', 'try-junban', 'ask-junban', 'spec-junban'],
+        navigationTooltips: ['what-junban', 'store-problem', 'why-junban', 'how-junban', 'try-junban', 'pricing', 'ask-junban', 'spec-junban'],
         slidesNavigation: true,
         slidesNavPosition: 'bottom',
 
@@ -33,11 +33,11 @@ $(document).ready(function() {
         controlArrows: true,
         verticalCentered: true,
         resize : true,
-        sectionsColor : ['#fff', '#F09C35', '#ddd', '#F09C35','#f5f0e6','#F09C35','#5cb85c','#fff'],
+        sectionsColor : ['#fff', '#F09C35', '#ddd', '#F09C35','#f5f0e6','#F09C35','#FFFFFF','#5cb85c','#fff'],
         paddingTop: '52px',
         paddingBottom: '3em',
         fixedElements: '#header',
-        responsive: 0,
+        responsiveWidth: 1280,
 
         //Custom selectors
         sectionSelector: '.section',

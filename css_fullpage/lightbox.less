@@ -1,0 +1,75 @@
+.modal-backdrop.in {
+    .opacity(0.95);
+    background-color: #333333;
+}
+
+.ekko-lightbox .modal-dialog {
+    width: 75vw !important;
+    height: 75vh;
+    max-width: 960px !important;
+    max-height: 570px;
+    .modal-content {
+        .border-radius(0);
+        .box-shadow(none);
+        border: none;
+        background-color: transparent;
+
+    }
+    .modal-content,
+    .modal-body,
+    .ekko-lightbox-container,
+    .ekko-lightbox-container > div,
+    iframe {
+        height: 100%;
+        width: 100%;
+    }    
+    .modal-body {
+        padding: 0;
+
+        .box-shadow(0 0 90px 10px rgba(0,0,0,0.5));
+    }
+    .modal-header {
+        border: 0;
+        // padding-left: 0;
+        // padding-right: 0;
+    }
+}
+
+.ekko-lightbox .modal-header .close {
+    .opacity(0.5);
+    color: #fff;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.ekko-lightbox .modal-header .close:hover {
+    .opacity(1);
+}
+
+.ekko-lightbox .modal-header h4.modal-title {
+    font-weight: 100;
+    color: #fff;
+    // padding: 0;
+}
+
+.ekko-lightbox .modal-body {
+    // padding: 0;
+    text-align: center;
+    iframe {
+        // min-height: 80vh;
+        // margin: 0 auto;
+    }
+}
+
+.ekko-lightbox .modal-footer {
+    .opacity(0.9);
+    border: 0;
+    color: #fff;
+    font-weight: 100;
+    // padding: 0;
+}
+
+.ekko-lightbox-nav-overlay a {
+    .opacity(0.9);
+    text-shadow: none;
+}
