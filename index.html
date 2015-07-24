@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="bower_components/fullpage.js/jquery.fullPage.css">
     <!-- customize style -->
     <link rel="stylesheet" href="css_fullpage/style.css">
+    <link rel="stylesheet" href="bower_components/animate.less/animate.min.css">   
     <!-- vendor -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="bower_components/bootstrap/js/collapse.js"></script>
@@ -20,7 +21,7 @@
     <!-- bootstrap -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/ekko-lightbox/dist/ekko-lightbox.min.js"></script>
-    <script src="bower_components/less.js/dist/less.min.js"></script>
+    
     <!-- script -->
     <script src="js/fullpage-initialization.js"></script>
     <!-- initialize -->
@@ -39,9 +40,7 @@
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
                 </button>
                 <a class="navbar-brand" href="#top" data-menuanchor="top">
                     <img src="img/logo-word.png" height="24px" alt="">
@@ -86,15 +85,7 @@
                 <div class="row" style="height: 50%, margin-bottom: -10em">
                     <div class="col-md-5 text-center">
                         <img src="img/logo.png" class="image-jun-logo" alt="">
-                        <h4 class="dialog ">ご来店のお客様にとって<br>順番を待つことは <br>「時間の無駄」</h4>
-                        <ul>
-                            <li>
-                                <h4><span class="glyphicon glyphicon-ok"></span>&nbsp基本プラン・費用なし</h4>
-                            </li>
-                            <li>
-                                <h4><span class="glyphicon glyphicon-ok"></span>&nbsp全端末サポート(iPad, Android Pad)</h4>
-                            </li>
-                        </ul>
+                        <h5 class="dialog blue">ご来店のお客様にとって順番を待つことは <br>「時間の無駄」</h5>
                     </div>
                     <div class="col-md-7 text-center"><img src="img/comic_hero.jpg" id="comic-hero"> </div>
                 </div>
@@ -104,20 +95,24 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>順番コンシェルとは？</h1>
-                        <h3>順番待ちが発生する全ての施設で、簡単に始められる順番管理システム、<br>それが「順番コンシェル」です。</h3>
+                        <h1 class="yellow"><img src="img/jyunban-favi-45.ico" alt="">順番コンシェルとは？</h1>
+                        <h3 class="white">順番待ちが発生する全ての施設で、簡単に始められる<strong>順番管理システム</strong>、<br>それが「順番コンシェル」です。</h3>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
-                        <p>専用の高価な機材もプリンタも不要で、市販のタブレット、お手持ちのスマートフォンを使ってお手軽にしかも無料で始められます。
+                    <div class="col-md-5">
+                        <p class="panel blue">
+                            <span class="glyphicon glyphicon-ok"></span>&nbsp基本プラン・費用なし
+                            <br><span class="glyphicon glyphicon-ok"></span>&nbsp全端末サポート(iPad, Android Pad)
+                            <br>
+                            <br>専用の高価な機材もプリンタも不要で、市販のタブレット、お手持ちのスマートフォンを使ってお手軽にしかも無料で始められます。
                         </p>
-                        <p>
-                            どうぞお試しください。 手っ取り早く、その機能は右の動画でご確認ください→</p>
+                        <p class="panel">
+                            どうぞお試しください。 手っ取り早く、その機能は右の動画でご確認ください <span class="glyphicon glyphicon-hand-right"></span></p>
                     </div>
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-7 text-center">
                         <a data-toggle="lightbox" data-gallery="youtubevideos" data-type="youtube" href="https://www.youtube.com/watch?v=QXYCQQwgshk">
-                            <img src="img/placeholder-video.png" alt="">
+                            <img src="img/placeholder-video.png" alt="" class="video-placeholder">
                         </a>
                         <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/QXYCQQwgshk" frameborder="0" allowfullscreen></iframe> -->
                     </div>
@@ -155,10 +150,9 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>なぜ順番コンシェル？</h1>
-                        <h3>「順番コンシェル」は順番管理をするもう一人のスタッフです。</h3>
-                        <p>
-                            <br>制限された店舗というキャパの中で、スタッフの効率的なオペレーションの助けとなり、
+                        <h1 class="yellow"><img src="img/jyunban-favi-45.ico" alt="">なぜ順番コンシェル？</h1>
+                        <h3 class="white">「順番コンシェル」は順番管理をするもう一人のスタッフです。</h3>
+                        <p class="panel">制限された店舗というキャパの中で、スタッフの効率的なオペレーションの助けとなり、
                             <br>お客様の待ち時間を最小限にすることを目標に、
                             <br>「順番コンシェル」は24時間365日、
                             <br>お店のもう一人のスタッフとしてしっかり順番を管理します。
@@ -173,9 +167,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h1><img src="img/jyunban-favi-45.ico" alt="">順番コンシェルはこんな風に働きます！</h1>
-                        <p>
-                            順番コンシェルは3つの画面で構成されます。
-                            <br>お客様が操作するタブレット端末「キオスク」、スタッフが順番を管理する「マネジャー」、そしてお客様が自身の順番を確認するための「順番チェッカー」です。
+                        <h3 class="blue">順番コンシェルは<strong>3つの画面</strong>で構成されます。</h3>
+                        <p>お客様が操作するタブレット端末「キオスク」、スタッフが順番を管理する「マネジャー」、そしてお客様が自身の順番を確認するための「順番チェッカー」です。
                             <br>無線LANなどのインターネット環境さえあれば、どれも特殊な端末は必要ありません。
                         </p>
                     </div>
@@ -277,9 +270,9 @@
         <div class="section" data-anchor="try-junban">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-12">
-                        <h1>それでは試しに使ってみよう！</h1>
-                        <h3>3分の登録のお時間ですべての機能がお試しいただけます。<br>お店のオペレーションを劇的に変化させる扉は下のボタンです。</h3>
+                    <div class="col-md-12 text-center">
+                        <h1 class="yellow"><img src="img/jyunban-favi-45.ico" alt="">それでは試しに使ってみよう！</h1>
+                        <h3 class="white">3分の登録のお時間ですべての機能がお試しいただけます。<br>お店のオペレーションを劇的に変化させる扉は下のボタンです。</h3>
                         <a class="btn btn-success btn-lg">今すぐ登録！</a>
                     </div>
                 </div>
@@ -288,7 +281,7 @@
         <div class="section" data-anchor="pricing">
             <div class="container-fluid">
                 <div class="row">
-                    <h2 class="text-center">プラン比較</h2>
+                    <h2 class="text-center orange">プラン比較</h2>
                     <div class="col-md-offset-2 col-md-4 col-sm-offset-1 col-sm-5">
                         <ul class="pricing-table">
                             <li>
@@ -332,97 +325,89 @@
         <div class="section" data-anchor="ask-junban">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-12">
-                        <h3>質問はどこで訊いたらいいですか？</h3>
-                        <p>メールフォームからご質問をお送りください。 （プレミアム会員様は専用の電話連絡先をご利用ください）
+                    <div class="col-md-12 text-center">
+                        <h2 class="yellow"><img src="img/jyunban-favi-45.ico" alt="">質問はどこで訊いたらいいですか？</h3>
+                        <p class="white">メールフォームからご質問をお送りください。 （プレミアム会員様は専用の電話連絡先をご利用ください）
                         </p>
-                        <a href="" class="btn btn-default">メールで連絡をとりします</a>
+                        <a href="" class="btn btn-default btn-lg">メールで連絡をとりします</a>
                     </div>
-                </div>
+                </div> 
             </div>
-        </div>
-        <div class="section" data-anchor="spec-junban">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h4>順番コンシェルが適応の端末</h4>
-                        <p>Chrome Browser in Windows/ iOS/ Android </p>
-                        <p>
-                            <a href="http://www.google.com/chrome/"><img src="img/Available-for-Google-Chrome.png" height="40" width="161" alt="">
-                            </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- footer -->
-                    <footer>
-                        <div class="footer" id="footer">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                                        <h3> 順番コンシェルについて </h3>
-                                        <ul>
-                                            <li> <a href="#"> 〇〇〇〇〇 </a> </li>
-                                            <li> <a href="#"> 〇〇〇〇〇 </a> </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                                        <h3> 〇〇〇〇 </h3>
-                                        <ul class="social">
-                                            <li>
-                                                <a href="#"><img src="img/icon/g+48.png" alt="g+">
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                                        <h3> 規約・ポリシー </h3>
-                                        <ul>
-                                            <li> <a href="#"> 特定商取引法に基づく表記 </a> </li>
-                                            <li> <a href="#"> プライバシーポリシー </a> </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                        <h3> 運営会社について　</h3>
-                                        <ul>
-                                            <li>
-                                                <a href="http://pse.or.jp">
-                                                    <img src="img/logo-pse-or.gif" height="33" width="257" alt="">
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li><img src="img/phone-pse.png" height="44" width="189" alt="">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!--/.row-->
-                            </div>
-                            <!--/.container-->
-                        </div>
-                        <!--/.footer-->
-                        <div class="footer-bottom">
-                            <div class="container">
-                                <p class="pull-left"> Copyright © 順番コンシェル 2014. All right reserved. </p>
-                                <div class="pull-right">
-                                    <ul class="nav nav-pills payments">
-                                        <li><i class="fa fa-cc-visa"></i>
-                                        </li>
-                                        <li><i class="fa fa-cc-mastercard"></i>
-                                        </li>
-                                        <li><i class="fa fa-cc-amex"></i>
-                                        </li>
-                                        <li><i class="fa fa-cc-paypal"></i>
-                                        </li>
-                                    </ul>
-                                </div>
+            <br><br><br><br><br><br>
+            <!-- footer -->
+            <footer>
+                <div class="footer" id="footer">
+                    <div class="container">               
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4>順番コンシェルが適応の端末</h4>
+                                <p>
+                                    <a href="http://www.google.com/chrome/"><img src="img/Available-for-Google-Chrome.png" height="40" width="161" alt="">
+                                    </a>Chrome Browser in Windows/ iOS/ Android </p>
+                                <p>
+                                </p>
                             </div>
                         </div>
-                        <!--/.footer-bottom-->
-                    </footer>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                <h3> 順番コンシェルについて </h3>
+                                <ul>
+                                    <li> <a href="#"> 〇〇〇〇〇 </a> </li>
+                                    <li> <a href="#"> 〇〇〇〇〇 </a> </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                <h3> 〇〇〇〇 </h3>
+                                <ul class="social">
+                                    <li>
+                                        <a href="#"><img src="img/icon/g+48.png" alt="g+">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                                <h3> 規約・ポリシー </h3>
+                                <ul>
+                                    <li> <a href="#"> 特定商取引法に基づく表記 </a> </li>
+                                    <li> <a href="#"> プライバシーポリシー </a> </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                                <h3> 運営会社について　</h3>
+                                <ul>
+                                    <li>
+                                        <a href="http://pse.or.jp">
+                                            <img src="img/logo-pse-or.gif" height="33" width="257" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li><img src="img/phone-pse.png" height="44" width="189" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                   
+                            <p class="pull-left"> Copyright © 順番コンシェル 2014. All right reserved. </p>
+                            <div class="pull-right">
+                                <ul class="nav nav-pills payments">
+                                    <li><i class="fa fa-cc-visa"></i>
+                                    </li>
+                                    <li><i class="fa fa-cc-mastercard"></i>
+                                    </li>
+                                    <li><i class="fa fa-cc-amex"></i>
+                                    </li>
+                                    <li><i class="fa fa-cc-paypal"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--/.row-->
+                    </div> 
+                    <!--/.container-->
                 </div>
-            </div>
+            </footer>
         </div>
     </div>
 </body>
