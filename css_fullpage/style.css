@@ -3437,6 +3437,12 @@ body {
 .ekko-lightbox .modal-dialog .modal-header {
   border: 0;
 }
+@media (max-width: 720px) {
+  .ekko-lightbox .modal-dialog {
+    width: 100vw !important;
+    height: 100vh;
+  }
+}
 .ekko-lightbox .modal-header .close {
   zoom: 1;
   filter: alpha(opacity=50);
@@ -3954,6 +3960,7 @@ p img {
   -webkit-box-shadow: 0 0px 80px rgba(255, 255, 255, 0.8);
   -moz-box-shadow: 0 0px 80px rgba(255, 255, 255, 0.8);
   box-shadow: 0 0px 80px rgba(255, 255, 255, 0.8);
+  max-width: 100%;
 }
 .section[data-anchor="how-junban"] .col-md-12 {
   margin-bottom: 30px;
