@@ -2,10 +2,10 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
         //Navigation
         menu: '#menu',
-        anchors: ['top', 'what-junban', 'store-problem', 'why-junban', 'how-junban', 'try-junban', 'pricing', 'ask-junban', 'spec-junban'],
+        anchors: ['top', 'what-junban', 'store-problem', 'why-junban', 'how-junban', 'try-junban', 'pricing', 'ask-junban'],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['what-junban', 'store-problem', 'why-junban', 'how-junban', 'try-junban', 'pricing', 'ask-junban', 'spec-junban'],
+        navigationTooltips: ['「順番コンシェル」とは?', '今の店は...', 'なぜ順番コンシェル?', '機能紹介', "Let's Try", 'プラン比較', 'お問い合わせ'],
         slidesNavigation: true,
         slidesNavPosition: 'bottom',
 
